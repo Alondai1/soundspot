@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2fd706255590948f8976f8a7dd5d8fc2",
+    "revision": "0bd6833578e42e946c644ea53708d7c6",
     "url": "/soundspot/index.html"
   },
   {
-    "revision": "ed88747aed0001482ab0",
+    "revision": "9e8ac71fee15424f3086",
     "url": "/soundspot/static/css/main.0c5fdd59.chunk.css"
   },
   {
-    "revision": "388d922ec6ca4b3127bb",
-    "url": "/soundspot/static/js/2.d19dd19a.chunk.js"
+    "revision": "74d519e85eb0acce73d9",
+    "url": "/soundspot/static/js/2.94afc0e5.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/soundspot/static/js/2.d19dd19a.chunk.js.LICENSE.txt"
+    "url": "/soundspot/static/js/2.94afc0e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ed88747aed0001482ab0",
-    "url": "/soundspot/static/js/main.54454e78.chunk.js"
+    "revision": "9e8ac71fee15424f3086",
+    "url": "/soundspot/static/js/main.82f53dcb.chunk.js"
   },
   {
     "revision": "bed251955eaee7554645",

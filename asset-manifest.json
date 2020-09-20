@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/soundspot/static/css/main.0c5fdd59.chunk.css",
-    "main.js": "/soundspot/static/js/main.54454e78.chunk.js",
-    "main.js.map": "/soundspot/static/js/main.54454e78.chunk.js.map",
+    "main.js": "/soundspot/static/js/main.82f53dcb.chunk.js",
+    "main.js.map": "/soundspot/static/js/main.82f53dcb.chunk.js.map",
     "runtime-main.js": "/soundspot/static/js/runtime-main.dd20bc56.js",
     "runtime-main.js.map": "/soundspot/static/js/runtime-main.dd20bc56.js.map",
-    "static/js/2.d19dd19a.chunk.js": "/soundspot/static/js/2.d19dd19a.chunk.js",
-    "static/js/2.d19dd19a.chunk.js.map": "/soundspot/static/js/2.d19dd19a.chunk.js.map",
+    "static/js/2.94afc0e5.chunk.js": "/soundspot/static/js/2.94afc0e5.chunk.js",
+    "static/js/2.94afc0e5.chunk.js.map": "/soundspot/static/js/2.94afc0e5.chunk.js.map",
     "index.html": "/soundspot/index.html",
-    "precache-manifest.dddd632c02ba438ddb73f504b3006bb5.js": "/soundspot/precache-manifest.dddd632c02ba438ddb73f504b3006bb5.js",
+    "precache-manifest.68f48f8270b109d09b008cea88bfb7b4.js": "/soundspot/precache-manifest.68f48f8270b109d09b008cea88bfb7b4.js",
     "service-worker.js": "/soundspot/service-worker.js",
     "static/css/main.0c5fdd59.chunk.css.map": "/soundspot/static/css/main.0c5fdd59.chunk.css.map",
-    "static/js/2.d19dd19a.chunk.js.LICENSE.txt": "/soundspot/static/js/2.d19dd19a.chunk.js.LICENSE.txt",
+    "static/js/2.94afc0e5.chunk.js.LICENSE.txt": "/soundspot/static/js/2.94afc0e5.chunk.js.LICENSE.txt",
     "static/media/global.scss": "/soundspot/static/media/search-24.c29e542e.png",
     "static/media/hero.svg": "/soundspot/static/media/hero.0ee83099.svg",
     "static/media/small-logo-black.png": "/soundspot/static/media/small-logo-black.7c8e0f4a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.dd20bc56.js",
-    "static/js/2.d19dd19a.chunk.js",
+    "static/js/2.94afc0e5.chunk.js",
     "static/css/main.0c5fdd59.chunk.css",
-    "static/js/main.54454e78.chunk.js"
+    "static/js/main.82f53dcb.chunk.js"
   ]
 }
