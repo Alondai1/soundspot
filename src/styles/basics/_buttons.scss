@@ -1,0 +1,25 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 4px;
+    
+    &.next {
+        background-color: $clr3;
+        width: fit-content;
+        padding: 10px;
+    }
+
+    &.search-btn {
+        background-color: $clr3;
+        width: fit-content;
+        padding: 0 10px;
+    }
+
+    &:hover {
+        background-color: #ff5f12;
+        transition: 0.4s;
+    }
+}

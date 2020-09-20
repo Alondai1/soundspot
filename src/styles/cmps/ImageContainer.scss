@@ -1,0 +1,22 @@
+.image-container {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+@include for-normal-layout {
+    .image-container{
+        & img {
+            height: 400px;
+            width: 400px;
+        }
+    }
+}
+
+@include for-mobile-wide-layout {
+    .image-container{
+        & img {
+            height: 200px;
+            width: 200px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+#search-bar {
+    min-height: 32px;
+    min-width: 250px;
+    resize: none;
+    border-radius: 55px;
+    outline: none;
+    font-family: inherit;
+    font-size: 1rem;
+    text-indent: 35px;
+    margin-inline-end: 10px;
+}
+
+.search-bar-icon {
+    background-image: url(../../assets/icons/search-24.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 5px 4px;
+    position: absolute;
+    height:27px;
+    width: 27px;
+}
+
+@include for-mobile-wide-layout {
+    #search-bar {
+        min-width: 200px;
+    }
+}

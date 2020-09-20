@@ -1,0 +1,27 @@
+.view-icon-container {
+    height: 42px;
+    width: 42px;
+    margin-inline-start: 10px;
+
+    .MuiSvgIcon-root {
+        height: 100%;
+        width: 100%;
+    }
+
+    &.selected {
+        cursor: default;
+        .MuiSvgIcon-root {
+            fill: $clr3;
+        }
+    }
+
+    .MuiSvgIcon-root:hover {
+        fill: $clr3;
+    }
+}
+
+.no-found-items {
+    height: 100px;
+    width: 70%;
+    margin-top: 10px;
+}

@@ -1,0 +1,84 @@
+.header-container {
+    padding: 10px;
+}
+
+.header-logo-container {
+    padding: 0 20px;
+    img {
+        height: 67px;
+        width: 60px;
+    }
+}
+
+.app-title-container {
+    font-family: manrope;
+    color: #000000b0;
+    font-size: rem(50px);
+
+    span {
+        color: $clr3;
+    }
+}
+
+@include for-mobile-wide-layout {
+    .header-logo-container {
+        img {
+            height: 47px;
+            width: 40px;
+        }
+    }
+
+    .app-title-container {
+        font-size: rem(38px);
+    }
+}
+
+@include for-mobile-narrow-layout {
+    .app-title-container {
+        font-size: rem(29px);
+    }
+}
+
+.focus-in-contract {
+    animation: focus-in-contract 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes focus-in-contract {
+    0% {
+        letter-spacing: 1em;
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+.heartbeat {
+    animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+        transform-origin: center center;
+        animation-timing-function: ease-out;
+    }
+    10% {
+        transform: scale(0.91);
+        animation-timing-function: ease-in;
+    }
+    17% {
+        transform: scale(0.98);
+        animation-timing-function: ease-out;
+    }
+    33% {
+        transform: scale(0.87);
+        animation-timing-function: ease-in;
+    }
+    45% {
+        transform: scale(1);
+        animation-timing-function: ease-out;
+    }
+}

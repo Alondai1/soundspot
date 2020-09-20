@@ -1,0 +1,25 @@
+// Setup
+@import "setup/functions";
+@import "setup/mixins";
+@import "setup/variables";
+
+// Basics
+@import "basics/base";
+@import "basics/buttons";
+@import "basics/helpers";
+@import "basics/input";
+@import "basics/layout";
+@import "basics/typography";
+
+// cmps
+@import "cmps/Footer.scss";
+@import "cmps/Header.scss";
+@import "cmps/ImageContainer.scss";
+@import "cmps/Loading.scss";
+@import "cmps/RecentSearchesContainer.scss";
+@import "cmps/SearchContainer.scss";
+@import "cmps/SearchContainer/CollectionList.scss";
+@import "cmps/SearchContainer/CollectionPreview.scss";
+
+// pages
+@import "pages/Home.scss";

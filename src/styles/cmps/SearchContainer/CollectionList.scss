@@ -1,0 +1,28 @@
+.tiles :not(:last-child) {
+    margin-inline-end: 15px;
+}
+
+.tiles {
+    min-height: 420px;
+}
+
+.list {
+    flex-direction: column;
+    min-height: 320px;
+}
+
+.collection-list-container {
+    margin: 10px 0px;
+    // flex-wrap: wrap;
+}
+
+@include for-mobile-wide-layout {
+    .tiles {
+        min-height: 220px;
+        max-height: 500px;
+    }
+
+    .list {
+        max-height: 360px;
+    }
+}
