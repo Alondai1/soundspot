@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/soundspot/precache-manifest.bd1767e694c832bd6cc8a04e6b5c6306.js"
+  "/soundspot/precache-manifest.dddd632c02ba438ddb73f504b3006bb5.js"
 );
 
 self.addEventListener('message', (event) => {
